@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #3b4664;
+}
 #calc {
   width: 100%;
   height: 100vh;
@@ -11,7 +14,6 @@
   align-items: center;
 }
 #content {
-  background: #2c302c;
   padding: 20px;
   border-radius: 10px;
 }
@@ -21,8 +23,9 @@
   width: 100px;
   height: 65px;
   border-radius: 8px;
-  font-size: 15px;
+  font-size: 20px;
   margin: 10px;
+  font-weight: 700;
   cursor: pointer;
 }
 #backspace {
@@ -45,7 +48,16 @@ form #output input {
   text-align: right;
   flex: 1;
   font-size: 25px;
+  font-weight: 900;
 }
 .lst {
   margin-left: 25%;
+}
+#output input {
+  background-color: black;
+  color: white;
+}
+.btn {
+  background: #252d44;
+  border-radius: 15px;
 }
